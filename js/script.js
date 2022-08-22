@@ -43,3 +43,4 @@ registrationForm.addEventListener("submit", (e) => {
   e.preventDefault();
   formValidate();
 });
+
