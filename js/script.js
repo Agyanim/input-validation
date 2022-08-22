@@ -7,7 +7,7 @@ let alert_2 = document.querySelector("#alert-2");
 let alert_3 = document.querySelector("#alert-3");
 
 const removeWarning = (name, error) => {
-  name.classList.add("good");
+  name.classList.add("remove-warning");
   name.classList.remove("warning");
   error.innerHTML = "";
 };

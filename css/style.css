@@ -13,20 +13,26 @@ body {
 .formWrapper {
   background-color: white;
   width: 25em;
-  height: 80vh;
+  height: 40em;
   margin-top: 10vh;
-  border-radius: 4px;
+  border-radius: 10px;
   box-shadow: 0px 0px 5px 2px rgb(19, 109, 109);
 }
 .fHeader {
   text-align: center;
   color: rgb(8, 122, 122);
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
+}
+.registrationForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .input {
   padding: 1rem 4rem 1rem 0.5rem;
-  margin: 1rem 2.5rem;
+  /* margin: 1rem 2.5rem; */
   border: 1px solid rgb(9, 9, 10, 0.2);
   border-radius: 5px;
   width: 20rem;
@@ -37,13 +43,15 @@ body {
   margin: 1rem 2.5rem;
   background-color: aqua;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   color: white;
   font-weight: bold;
 }
 .alert {
-  margin-left: 2.5rem;
+position: relative;
   color: rgb(248, 6, 6, 0.6);
+  left: -4.3rem;
+  top: -1rem;
 }
 
 .warning {
@@ -53,7 +61,7 @@ body {
   border: 2px solid green;
 }
 
-@media  only screen and (max-width:600px) {
+@media  only screen and (max-width:700px) {
   .formWrapper {
     width: 80vw;
     height: 30em;
@@ -62,24 +70,23 @@ body {
 .registrationForm{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 .input {
-    /* align-items: center; */
     width: 14rem;
-    /* margin-left: 1rem; */
     padding: 1rem 1rem 1rem 0.5rem;
+    margin-bottom: 0px;
 
   }
   .submitBtn {
     width: 14rem  ;
-    /* margin-left: 1rem; */
 
 }
 .alert {
-    justify-items: auto;
-    margin-left: 0px;
+position: relative;
+  left: -1.3rem;
+  top: -1rem;
+
   }
   
 
