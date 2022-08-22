@@ -56,7 +56,7 @@ body {
 @media  only screen and (max-width:600px) {
   .formWrapper {
     width: 80vw;
-    height: 90vh;
+    height: 30em;
     margin-top: 5vh;
 }
 .registrationForm{
