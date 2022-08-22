@@ -12,8 +12,8 @@ body {
 }
 .formWrapper {
   background-color: white;
-  width: 25em;
-  height: 40em;
+  width: 20em;
+  height: 32em;
   margin-top: 10vh;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 2px rgb(19, 109, 109);
@@ -35,11 +35,11 @@ body {
   /* margin: 1rem 2.5rem; */
   border: 1px solid rgb(9, 9, 10, 0.2);
   border-radius: 5px;
-  width: 20rem;
+  width: 18rem;
 }
 .submitBtn {
   padding: 1rem 4rem;
-  width: 20rem;
+  width: 18rem;
   margin: 1rem 2.5rem;
   background-color: aqua;
   border: none;
@@ -50,8 +50,8 @@ body {
 .alert {
 position: relative;
   color: rgb(248, 6, 6, 0.6);
-  left: -4.3rem;
   top: -1rem;
+  width: 18rem;
 }
 
 .warning {
@@ -84,8 +84,8 @@ position: relative;
 }
 .alert {
 position: relative;
-  left: -1.3rem;
   top: -1rem;
+  width: 14rem;
 
   }
   
