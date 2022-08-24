@@ -73,7 +73,7 @@ position: relative;
   margin-left: 2rem;
 
 }
-@media  only screen and (max-width:700px) {
+@media  only screen and (max-width:350px) {
   .formWrapper {
     width: 80vw;
     height: 30em;
@@ -100,6 +100,11 @@ position: relative;
   width: 14rem;
 
   }
-  
-
+  .color-screen{
+    width: 12rem;
+  }
+  .color-generator-btn{
+    width: 12rem;
+  }
 }
+
